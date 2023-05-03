@@ -1,0 +1,31 @@
+EDA -> Exploratory Data Analysis
+Permet d'analyser les données
+
+1) Compréhension de l'objectif du projet, énoncer clairement l'objectif
+2) Description de chaque variable
+3) Compréhension des données
+    df.head(n) permet d'afficher n lignes de notre jeu de données
+    df.info() avoir des infos sur les colonnes et les types de données et les valeurs non-null
+    df.describe() afficher les stats des données
+4) Nettoyage des données
+    isnull().sum() pour trouver le nombre de valeurs manquantes
+    duplicated() pour trouver les valeurs dupliquées
+5) Visualisation des données
+    a. Analyse à une variable, utilisation d'un diagramme ou un histogramme
+    sns.histplot() distplot() histplot()
+    b. Analyse à deux variables, utilisation d'un diagramme en boîte (boxplot).
+       On regarde la relation entre deux variables qui se ressemblent
+    c. Analyse à plusieurs variables
+       pairplot() afficher un groupe de diagrammes pour chaque variables
+       heatmap() + .corr() pour afficher la relation entre chaque variable
+6) Selection des caractéristiques
+   Traitement des valeurs aberrantes
+   .hexbin() affiche la corrélation des caractéristiques choisies
+   Mise à l'échelle des caractéristiques
+   -> StandardScaler()
+   Nombre de clusters
+   Clustering (Kmeans)
+   KMeans()
+   Value_counts() compter le nombre de valeurs dans chaque groupe
+   Recommandation
+7) Conclusion
