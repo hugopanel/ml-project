@@ -16,7 +16,7 @@ Permet d'analyser les données
     b. Analyse à deux variables, utilisation d'un diagramme en boîte (boxplot).
        On regarde la relation entre deux variables qui se ressemblent
     c. Analyse à plusieurs variables
-       pairplot() afficher un groupe de diagrammes pour chaque variables
+       pairplot() afficher un groupe de diagrammes pour chaque variable
        heatmap() + .corr() pour afficher la relation entre chaque variable
 6) Selection des caractéristiques
    Traitement des valeurs aberrantes
